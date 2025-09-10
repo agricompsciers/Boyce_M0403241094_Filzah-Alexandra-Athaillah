@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: black;
+    padding: 32px 240px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+a, h1, h2, p, li {
+    color: white;
+}
+
+a:hover, h1:hover, h2:hover, p:hover, li:hover {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(240, 0, 120, 0.6);
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.6);
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.profileimg {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid purple;
+    box-shadow: 0px 0px 10px 5px rgba(240, 0, 120, 0.4);
+}
+
+.profileimg:hover {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid purple;
+    box-shadow: 0px 0px 10px 5px rgba(240, 0, 120, 0.8);
+}
+
+#biodata {
+    display: block;
+    align-items: center;
+    gap: 64px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#biodata h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#datalist {
+    font-size: 24px;
+    background-color: rgba(240, 0, 120, 0.2);
+    justify-content: center;
+    padding: 50px;
+    border-radius: 16px;
+    border-color: magenta;
+}
+
+#datalist:hover {
+    font-size: 24px;
+    background-color: rgba(240, 0, 120, 0.2);
+    justify-content: center;
+    padding: 50px;
+    border: 2px solid pink;
+}
+
+.logo {
+    font-size: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-image: linear-gradient(to right, #ffdf4e, #4442af);
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.logo:hover {
+    font-size: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-image: linear-gradient(to right, #ffdf4e, #4442af);
+    padding: 8px;
+    color: white;
+    border-radius: 2px;
+}
